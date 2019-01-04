@@ -14,7 +14,7 @@ const TESTNET = true;
 const API_KEY = TESTNET ? "[INSERT TESTNET KEY HERE]" : "[MAINNET KEY HERE]";
 
 const OPENNODE_API = "https://" + (TESTNET ? "dev-" : "") + "api.opennode.co/v1";
-const ID_SITE = "https://" + (TESTNET ? "dev." : "") + "opennode.co/checkout/";
+const ID_SITE = "https://" + (TESTNET ? "dev-" : "") + "checkout.opennode.co/";
 
 // General function that fetches data from the API
 async function getData(url, body)
